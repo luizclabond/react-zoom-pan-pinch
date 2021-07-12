@@ -25,11 +25,7 @@
     "deploy": "gh-pages -d storybook-static",
     "test:lint": "eslint src/ --ext .js,.jsx,.tsx,.ts",
     "test:prettier": "npm run prettier -check \"**/*.+(js|json|ts|tsx)\""
-  },
-  "peerDependencies": {
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
-  },
+  }, 
   "devDependencies": {
     "@babel/core": "^7.13.14",
     "@babel/runtime": "^7.13.10",
